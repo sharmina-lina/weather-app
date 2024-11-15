@@ -1,0 +1,68 @@
+
+.weather-app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .weather-app__title {
+    margin-top: 0;
+  }
+  
+  .weather-app__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-app__input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .weather-app__button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .weather-app__current-title {
+    margin-top: 0;
+  }
+  
+  .weather-app__current-temp {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .weather-app__forecast-title {
+    margin-top: 0;
+  }
+  
+  .weather-app__forecast-average {
+    font-weight: bold;
+  }
+  
+  .weather-app__forecast-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .weather-app__forecast-item {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
